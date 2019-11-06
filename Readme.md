@@ -13,12 +13,11 @@
     /jack.js是JS脚本文件
     端口监听为8002，并通过修改hosts文件将http://127.0.0.1:8008映射为http://jack.com:8002
 
-  ## 假设黑客是要访问qq的好友列表，也即friends.json中的数据。
-
 
 # 步骤
-    1. 打开qq-com文件夹，在终端中使用 node server.js 8008命令
-    2. 打开jack-com文件夹，在终端中使用 node server.js 8002命令
+    1. 配置hosts文件，127.0.0.1 jack.com、127.0.0.1 qq.com
+    2. 打开qq-com文件夹，在终端中使用 node server.js 8008命令
+    3. 打开jack-com文件夹，在终端中使用 node server.js 8002命令
 
 
 # 例子
