@@ -28,7 +28,7 @@
 //例子3动态创建script标签的代码部分。
 function jsonp(url) {
     return new Promise((resolve, reject) => {
-        const random = Math.random()
+        const random = Math.random()*10000000 + '$%&jbhdhdhd'  //随机数
         window[random] = function (data) {
             // console.log(data)
             resolve(data)
